@@ -1,0 +1,70 @@
+body{
+ margin-left: 0;
+    background-image:linear-gradient(#000 ,rgb(255, 0, 195) );
+    font-family: 'Anton', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Sigmar', cursive;
+font-family: 'Ubuntu Condensed', sans-serif;
+color: aliceblue;
+display: grid;
+grid-template-columns:1fr;
+grid-template-rows: 6% 1fr;
+height:auto;
+width: 100%;
+overflow-x: hidden;
+}
+header{
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+
+span{
+    color: rgb(195, 125, 204);
+}
+a[href="indez.html"]{
+    border: none;
+    position: absolute;
+    left: 2rem;
+
+   
+ }
+ a[href="indez.html"] img{
+ height: 4rem;
+ width: 4rem;
+ border: none;
+ }
+
+section{
+    grid-row: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    height: 1.8rem;
+  
+    margin: 1rem;
+}
+figure {
+    border: 0.3rem solid;
+    background-color: #000;
+    text-align: center;
+}
+img{
+width: 20rem;
+height: 20rem;
+}
+
+
+
+
