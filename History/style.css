@@ -225,4 +225,28 @@ text-decoration: none;
    fieldset h2{
     color: #fff;
    }
+aside{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    
+}
+aside img{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem;
+}
+  aside a{
+    margin: 1rem;
+    border-radius: 1rem ;
+    background-color: #ea8cd7;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.7rem;
+    font-weight: 900;
+    opacity: 0.7;
+    text-align: center;
+   } 
 
